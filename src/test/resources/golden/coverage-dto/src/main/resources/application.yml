@@ -1,0 +1,13 @@
+corba:
+  string-charset: SJIS
+  response-timeout: 30m
+  connect-timeout: 60s
+  EmptyService:
+    object-ref:
+  ItemService:
+    object-ref:
+  ClockService:
+    object-ref:
+springdoc:
+  api-docs:
+    version: openapi_3_0
